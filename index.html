@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<main class="main">
+			<div class="main-heading">
+				<img src="main-icon.png" alt="" class="passenger">
+				<h1 class="h1">пассажиры</h1>
+			</div>
+			<div class="form">
+				<h2 class="form-h2">Взрослый</h2>
+				<p class="star"><span>*</span>Поле обязательно для заполнения</p>
+
+				<div class="person-info">
+					<div class="person-data">
+						<div class="person-radio">
+							<h3>Пол<span>*</span></h3>
+							<input id="radio-man" type="radio" name="radio" value="1" checked>
+							<label for="radio-man">М</label>
+						</div>
+						<div class="person-radio">
+							<input id="radio-female" type="radio" name="radio" value="2" checked>
+							<label for="radio-female">Ж</label>
+						</div>
+					</div>
+					<div class="person-data">
+						<h3>Фамилия<span>*</span></h3>
+						<input type="text">
+					</div>
+					<div class="person-data">
+						<h3>Имя<span>*</span></h3>
+						<input type="text">
+					</div>
+					<div class="person-data">
+						<h3>Отчество (если есть)<span>*</span></h3>
+						<input type="text">
+					</div>
+				</div>
+
+				<h2 class="document-h2">Информация о документе
+					<img src="info-icon.png" alt="Информация">
+				</h2>
+				<div class="document-info">
+					<div class="person-data">
+						<h3>Дата рождения<span>*</span></h3>
+						<input type="date">
+					</div>
+					<div class="person-data">
+						<h3>Гражданство</h3>
+						<input type="text">
+					</div>
+					<div class="person-data">
+						<h3>Серия и номер<span>*</span></h3>
+						<input type="text">
+					</div>
+					<div class="person-data">
+						<h3>Страна выдачи<span>*</span></h3>
+						<input type="text">
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
