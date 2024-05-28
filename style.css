@@ -46,13 +46,19 @@ table {
 }
 
 
+hr{
+	height: 5px;
+	margin: 30px auto;
+	background-color: rgb(32, 107, 110);
+	border: 0px;
+}
 .container{
 	max-width: 800px;
 	margin: auto;
 }
 .main-heading {
 	font-family: "Oswald", sans-serif;
-	font-weight: normal;
+	font-weight: 600;
 	font-size: large;
 	text-transform: uppercase;
 	display: flex;
@@ -64,7 +70,7 @@ table {
 }
 .form {
 	padding: 15px 25px;
-	border: solid 1px #000;
+	border: double 5px rgb(32, 107, 110);
 }
 .person-radio{
 	display: inline-block;
@@ -77,9 +83,11 @@ table {
 	cursor: pointer;
 	padding: 10px;
 	line-height: 13px;
-	border: 1px solid rgba(0, 0, 0, 0.4);
+	border: 1px solid rgb(146, 145, 145);
 	border-radius: 50%;
 	color: rgb(244, 155, 82);
+	background-color: rgb(255, 255, 255);
+	font-weight: 600;
 }
 .person-radio input[type=radio]:checked + label {
 	background: rgb(244, 155, 82);
