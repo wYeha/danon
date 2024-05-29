@@ -67,5 +67,47 @@
 			</div>
 		</main>
 	</div>
+	
+	<div class="container">
+		<div class="confirming form">
+			<div class="main-heading">
+				<img src="main-icon.png" alt="" class="passenger">
+				<h1 class="h1">правила и ограничения</h1>
+			</div>
+			<p class="confirmig-text">Для создания бронирования следует подтвердить, что вы ознакомились с информацией размещенной на сайте, а также о том, что вы ознакомились и согласны с правилами применения тарифов и другими условиями, и нажать кнопку "Подтвердить".</p>
+
+			<div class="checkbox-cont">
+				<div class="main-checkbox">
+					<input class="main-input" type="checkbox" name="conf" onclick="document.querySelectorAll('.item').forEach(checkbox => checkbox.checked = this.checked)">
+					<label class="main-label" for="conf">Я ознакомился и согласился со всеми правилами и условиями:</label>
+
+					<div class="checboxes">
+						<div class="checkbox">
+							<input type="checkbox" name="conf" class="item">
+							<label for="conf">
+								Условия договора<span>*</span>
+								<br>
+								Правила воздущных перевозок пассажиров и багажа<span>*</span>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" name="conf" class="item">
+							<label for="conf">
+								Правила тарифа и политики отмены/возврата<span>*</span>
+								<br>
+								Правила бронирования и оплаты<span>*</span>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" name="conf" class="item">
+							<label for="conf">
+								Я согласен(на) на обработку моих персональных данных
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
